@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Jost", sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    color: #464646;
+}
+
+.app-header{
+    height: 80px; /* altura */
+ 
+    display: flex; /* POSICIONA OS ELEMENTOS LADO A LADO*/
+    justify-content: space-between; /* jOGA OS ELEMENTOS PARA O CANTO*/
+    align-items: center; /* alinha verticalmente os elementos*/
+    padding-left: 80px; /* espaçamento interno da caixinha do header*/ 
+    padding-right: 80px;
+
+    box-shadow: 0px 2px 10px #464646;   /*0px eixo x - 2px eixo y - 10px borrado que terá*/ 
+}
+
+
+.app-footer{
+    height: 80px;  
+
+    display: flex; /* POSICIONA OS ELEMENTOS LADO A LADO*/
+    justify-content: center; /* jOGA OS ELEMENTOS PARA O CANTO*/
+    align-items: center; /* alinha verticalmente os elementos*/
+    padding-left: 80px; /* espaçamento interno da caixinha do header*/ 
+    padding-right: 80px;
+
+    box-shadow: 0px -2px 10px #464646;   /*0px eixo x - 2px eixo y - 10px borrado que terá*/ 
+}
+
+
+.links a {
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 35px;
+    text-transform: uppercase;
+}
+
+.app-main {
+    padding: 40px 80px; /* espaçamento, Em cima - baixo, se fosse quatro Em cima- Direta -Em baixo -Esqueda */
+}
+
+
+h1{
+    font-size: 70px;
+    font-weight: normal;
+    margin-bottom: 40px ; /* margem por baixo do elemento */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vw ; /* minimo de tela */
+} 
