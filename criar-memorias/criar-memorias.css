@@ -1,0 +1,99 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+
+    gap: 15px;
+
+}
+
+
+.lbl-txt {
+    font-weight: bold; 
+    /*peso da fonte*/
+    font-size: 16px;
+}
+
+#titulo, #descricao {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #eee
+
+}
+
+
+#descricao {
+    height: 100px;
+    resize: none; /* redimencionar o elemento */
+}
+
+
+.add-imagens {
+    background: none;
+    border: 3px solid #007bff;
+    padding: 10px ;
+    border-radius: 5px;
+    color: #007bff;
+    font-size: 16px;
+    width: 23%;
+}
+
+.add-imagens:hover{
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.btn-criar{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 23%;
+}
+
+.btn-criar:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+
+.img-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    /* travar tela na largura do pai do código (o formulario) */
+    padding-bottom: 10px;
+   
+}
+
+.img-container img{
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* .nenhum {
+    display: none;
+} */
+
+.cx-alerta{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    background-color: #f1f382;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    max-width: 300px;
+    
+}
